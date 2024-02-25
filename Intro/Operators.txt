@@ -1,0 +1,90 @@
+Operators in Python are symbols that perform operations on variables and values. Here's an overview of the main types of operators in Python:
+
+1. **Arithmetic Operators:**
+   - Used for mathematical operations.
+   - Examples: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulo), `**` (exponentiation).
+
+   ```python
+   a = 10
+   b = 3
+   print(a + b)  # 13
+   print(a - b)  # 7
+   print(a * b)  # 30
+   print(a / b)  # 3.3333
+   print(a % b)  # 1
+   print(a ** b)  # 1000
+   ```
+
+2. **Comparison Operators:**
+   - Used to compare values and return a Boolean result.
+   - Examples: `==` (equal), `!=` (not equal), `<` (less than), `>` (greater than), `<=` (less than or equal to), `>=` (greater than or equal to).
+
+   ```python
+   x = 5
+   y = 8
+   print(x == y)  # False
+   print(x != y)  # True
+   print(x < y)   # True
+   print(x > y)   # False
+   print(x <= y)  # True
+   print(x >= y)  # False
+   ```
+
+3. **Logical Operators:**
+   - Used to perform logical operations.
+   - Examples: `and` (logical AND), `or` (logical OR), `not` (logical NOT).
+
+   ```python
+   p = True
+   q = False
+   print(p and q)  # False
+   print(p or q)   # True
+   print(not p)     # False
+   ```
+
+4. **Assignment Operators:**
+   - Used to assign values to variables.
+   - Examples: `=` (assign), `+=` (add and assign), `-=`, `*=`, `/=`, `%=`.
+
+   ```python
+   x = 10
+   x += 5  # Equivalent to x = x + 5
+   print(x)  # 15
+   ```
+
+5. **Bitwise Operators:**
+   - Used for bitwise operations on integers.
+   - Examples: `&` (bitwise AND), `|` (bitwise OR), `^` (bitwise XOR), `~` (bitwise NOT), `<<` (left shift), `>>` (right shift).
+
+   ```python
+   a = 5  # 0101 in binary
+   b = 3  # 0011 in binary
+   print(a & b)  # 0001 (1 in decimal)
+   print(a | b)  # 0111 (7 in decimal)
+   ```
+
+6. **Membership Operators:**
+   - Used to test whether a value or variable is a member of a sequence (e.g., strings, lists, tuples).
+   - Examples: `in` (True if value is found in the sequence), `not in` (True if value is not found in the sequence).
+
+   ```python
+   my_list = [1, 2, 3, 4, 5]
+   print(3 in my_list)    # True
+   print(6 not in my_list)  # True
+   ```
+
+7. **Identity Operators:**
+   - Used to compare the memory location of two objects.
+   - Examples: `is` (True if both variables reference the same object), `is not` (True if variables reference different objects).
+
+   ```python
+   a = [1, 2, 3]
+   b = [1, 2, 3]
+   c = a
+   print(a is b)    # False
+   print(a is not b)  # True
+   print(a is c)    # True
+   ```
+
+These are some of the main categories of operators in Python. 
+Understanding how to use these operators is essential for writing effective and expressive Python code.
