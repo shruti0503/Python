@@ -1,6 +1,8 @@
-Operators in Python are symbols that perform operations on variables and values. Here's an overview of the main types of operators in Python:
+Operators in Python are symbols that perform operations on 
+variables and values. Here's an overview of the main types of operators in Python:
 
 1. **Arithmetic Operators:**
+
    - Used for mathematical operations.
    - Examples: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulo), `**` (exponentiation).
 
@@ -12,7 +14,7 @@ Operators in Python are symbols that perform operations on variables and values.
    print(a * b)  # 30
    print(a / b)  # 3.3333
    print(a % b)  # 1
-   print(a ** b)  # 1000
+   print(a ** b) # 1000
    ```
 
 2. **Comparison Operators:**
@@ -88,3 +90,5 @@ Operators in Python are symbols that perform operations on variables and values.
 
 These are some of the main categories of operators in Python. 
 Understanding how to use these operators is essential for writing effective and expressive Python code.
+
+
