@@ -59,7 +59,7 @@ print(List)
 #Time Analysis in List Comprehensions and Loop
 #The list comprehensions in Python are more efficient both computationally and in terms of coding space and time than a for a loop. Typically, they are written in a single line of code. The below program depicts the difference between loops and list comprehension based on performance.
 
-Python
+
 # Import required module 
 import time 
   
